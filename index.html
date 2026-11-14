@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Restaurante Itxas-Etxe · Cocina vasca y pescado a la brasa en Getaria</title>
+<meta name="description" content="Restaurante Itxas-Etxe en Kaia Kalea, junto al puerto de Getaria. Cocina vasca tradicional, pescado a la brasa, marisco y vinos. Reservas: +34 943 14 00 21.">
+<meta name="theme-color" content="#0f1d2e">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:site_name" content="Restaurante Itxas-Etxe">
+<meta property="og:title" content="Restaurante Itxas-Etxe · Getaria">
+<meta property="og:description" content="El sabor del mar. El alma de Getaria. Cocina vasca, pescado a la brasa y marisco en el puerto de Getaria.">
+<meta property="og:image" content="img/hero-exterior.webp">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="eu_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-exterior.webp" fetchpriority="high">
+<link rel="stylesheet" href="site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Restaurante Itxas-Etxe","telephone":["+34 943 14 00 21","+34 943 14 08 82"],"servesCuisine":["Basque","Seafood","Grilled fish"],"priceRange":"€€€","image":"img/hero-exterior.webp","address":{"@type":"PostalAddress","streetAddress":"Kaia, 1","postalCode":"20808","addressLocality":"Getaria","addressRegion":"Gipuzkoa","addressCountry":"ES"},"acceptsReservations":"True","hasMenu":"#carta"}
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-t="skip">Saltar al contenido</a>
+
+<header class="hdr" id="hdr"><span class="hdr__progress" id="progress" aria-hidden="true"></span>
+  <div class="hdr__in">
+    <a class="brand" href="#inicio" data-go="inicio" aria-label="Itxas-Etxe">
+      <span class="brand__name">ITXAS-ETXE</span>
+      <span class="brand__sub" data-t="brandSub">Jatetxea · Getaria</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#historia" data-go="historia" data-t="nav.story"></a>
+      <a href="#gastronomia" data-go="gastronomia" data-t="nav.gastro"></a>
+      <a href="#carta" data-go="carta" data-t="nav.menu"></a>
+      <a href="#vinos" data-go="vinos" data-t="nav.wines"></a>
+      <a href="#galeria" data-go="galeria" data-t="nav.gallery"></a>
+      <a href="#contacto" data-go="contacto" data-t="nav.contact"></a>
+    </nav>
+    <div class="langs" role="group" data-langs></div>
+    <a class="btn btn--solid hdr__book" href="#reservas" data-go="reservas" data-t="reserve"></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="drawer"><span></span><b class="sr" data-t="menuBtn">Menú</b></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav aria-label="Móvil">
+    <a href="#inicio" data-go="inicio" data-t="nav.home"></a>
+    <a href="#historia" data-go="historia" data-t="nav.story"></a>
+    <a href="#gastronomia" data-go="gastronomia" data-t="nav.gastro"></a>
+    <a href="#carta" data-go="carta" data-t="nav.menu"></a>
+    <a href="#vinos" data-go="vinos" data-t="nav.wines"></a>
+    <a href="#galeria" data-go="galeria" data-t="nav.gallery"></a>
+    <a href="#reservas" data-go="reservas" data-t="nav.book"></a>
+    <a href="#contacto" data-go="contacto" data-t="nav.contact"></a>
+  </nav>
+  <div class="drawer__foot">
+    <div class="langs" role="group" data-langs></div>
+    <a class="drawer__tel" href="tel:+34943140021">+34 943 14 00 21</a>
+    <a class="btn btn--solid" href="#reservas" data-go="reservas" data-t="reserve"></a>
+  </div>
+</div>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="inicio" aria-labelledby="hero-t">
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <p class="kicker hero__kicker fade" data-t="heroKicker"></p>
+      <h1 id="hero-t"><span class="ln"><span data-t="heroTitle.0"></span></span><span class="ln"><span data-t="heroTitle.1"></span></span></h1>
+      <p class="hero__text fade d1" data-t="heroText"></p>
+      <div class="hero__cta fade d2">
+        <a class="btn btn--solid" href="#reservas" data-go="reservas" data-t="heroBook"></a>
+        <a class="btn btn--ghost" href="#carta" data-go="carta" data-t="heroMenu"></a>
+      </div>
+    </div>
+    <div class="arch">
+      <div class="arch__frame" id="slides">
+        <div class="slide on"><img src="img/hero-exterior.webp" alt="" width="1086" height="1448" fetchpriority="high"></div>
+        <div class="slide"><img src="img/terrace-evening.webp" alt="" width="1086" height="1448" loading="lazy"></div>
+        <div class="slide"><img src="img/terrace-arch.webp" alt="" width="1086" height="1448" loading="lazy"></div>
+      </div>
+      <div class="arch__cap"><span id="slidecap">Kaia Kalea · Getaria</span><div class="arch__dots" id="dots"></div></div>
+    </div>
+  </div>
+  <div class="waves" aria-hidden="true">
+    <svg viewBox="0 0 2400 90" preserveAspectRatio="none"><path d="M0 60 Q150 40 300 60 T600 60 T900 60 T1200 60 T1500 60 T1800 60 T2100 60 T2400 60" fill="none" stroke="#b08d55" stroke-width="1"/><path d="M0 74 Q150 58 300 74 T600 74 T900 74 T1200 74 T1500 74 T1800 74 T2100 74 T2400 74" fill="none" stroke="#5d7a8f" stroke-width="1"/></svg>
+    <svg viewBox="0 0 2400 90" preserveAspectRatio="none"><path d="M0 50 Q200 30 400 50 T800 50 T1200 50 T1600 50 T2000 50 T2400 50" fill="none" stroke="#cfb07a" stroke-width=".8"/></svg>
+  </div>
+  <a class="hero__scroll" href="#historia" data-go="historia"><i></i><span data-t="scroll"></span></a>
+</section>
+
+<div class="strip" aria-label="Itxas-Etxe"><div class="strip__track" id="strip"></div></div>
+
+<!-- STORY -->
+<section class="story paper" id="historia" aria-labelledby="story-t">
+  <div class="wrap">
+    <div class="story__grid">
+      <div class="story__body">
+        <button class="helm rv" type="button" id="helm" aria-hidden="true" tabindex="-1"><span class="helm__sway"><img class="wheel" id="wheel" src="img/deco-wheel.webp" alt="" width="400" height="388" loading="lazy"></span></button>
+        <p class="kicker rv" data-t="storyKicker"></p>
+        <h2 class="h2 rv" id="story-t" data-t="storyTitle"></h2>
+        <p class="story__lead rv" data-t="storyLead"></p>
+        <p class="rv" data-t="storyBody"></p>
+      </div>
+      <div class="story__art">
+        <figure class="rv-img"><img src="img/frame-elorza.webp" alt="" data-alt="drawingCap" width="1122" height="1402" loading="lazy"></figure>
+        <figure class="rv" style="margin:0"><figcaption data-t="drawingCap"></figcaption></figure>
+        <img class="plate plate--ship" data-par="-0.06" src="img/deco-ship.webp" alt="" width="700" height="530" loading="lazy">
+      </div>
+    </div>
+    <div class="log">
+      <img class="log__chart" data-par="0.05" src="img/deco-chart.webp" alt="" width="700" height="350" loading="lazy">
+      <div class="log__head rv"><h3 data-t="logTitle"></h3></div>
+      <ol id="log"></ol>
+    </div>
+  </div>
+</section>
+
+<!-- GASTRONOMY -->
+<section class="gastro" id="gastronomia" aria-labelledby="gastro-t">
+  <div class="wrap">
+    <div class="gastro__head">
+      <div><p class="kicker rv" data-t="gastroKicker"></p><h2 class="h2 rv" id="gastro-t" data-t="gastroTitle"></h2></div>
+      <p class="lead rv" data-t="gastroLead"></p>
+    </div>
+    <div class="dishes" id="dishes"></div>
+    <p class="photo-note" data-t="photoNote"></p>
+  </div>
+</section>
+
+<section class="sea paper" aria-labelledby="sea-t">
+  <div class="wrap">
+    <figure class="swim rv" aria-hidden="true">
+      <svg class="swim__water" viewBox="0 0 600 60" preserveAspectRatio="none"><path d="M0 30 Q50 18 100 30 T200 30 T300 30 T400 30 T500 30 T600 30" fill="none" stroke="#2f4d66" stroke-opacity=".28"/><path d="M0 42 Q60 32 120 42 T240 42 T360 42 T480 42 T600 42" fill="none" stroke="#b08d55" stroke-opacity=".35"/></svg>
+      <div class="swim__fish" data-swim><img src="img/deco-bonito.webp" alt="" width="1170" height="356" loading="lazy"></div>
+      <figcaption>Kantauri itsasoa · Mar Cantábrico</figcaption>
+    </figure>
+    <h2 class="h2 rv" id="sea-t" data-t="seaTitle"></h2>
+    <p class="sea__text rv" data-t="seaText"></p>
+    <div class="pillars" id="pillars"></div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="carta" aria-labelledby="menu-t">
+  <div class="wrap">
+    <div class="menu__head">
+      <p class="kicker rv" data-t="menuKicker"></p>
+      <h2 class="h2 rv" id="menu-t" data-t="menuTitle"></h2>
+      <p class="lead rv" data-t="menuLead"></p>
+      <p class="legend rv" data-t="legendSpm"></p>
+    </div>
+    <div class="chips rv" id="menuChips" role="group"></div>
+    <div class="menu__tools"><button class="linkbtn" id="toggleAll" type="button"></button></div>
+    <div class="cats" id="cats"></div>
+    <div class="notice rv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v6M12 16.5v.5"/></svg><p style="margin:0" data-t="menuNotice"></p></div>
+  </div>
+</section>
+
+<!-- WINES -->
+<section class="wines" id="vinos" aria-labelledby="wines-t">
+  <div class="wrap wines__grid">
+    <div class="wines__aside">
+      <p class="kicker rv" data-t="winesKicker"></p>
+      <h2 class="h2 rv" id="wines-t" data-t="winesTitle"></h2>
+      <p class="lead rv" data-t="winesLead"></p>
+      <p class="wines__note rv" data-t="winesNote"></p>
+      <img class="rv" data-par="-0.04" src="img/deco-battle.webp" alt="" width="309" height="500" loading="lazy" style="width:min(56vw,260px);margin-top:30px;opacity:.85">
+    </div>
+    <div class="wlist" id="wlist"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="galeria" aria-labelledby="gal-t">
+  <div class="wrap">
+    <div class="gallery__head">
+      <div><p class="kicker rv" data-t="galleryKicker"></p><h2 class="h2 rv" id="gal-t" data-t="galleryTitle"></h2></div>
+      <div class="chips rv" id="galChips" role="group"></div>
+    </div>
+    <div class="archive" id="masonry"></div>
+  </div>
+</section>
+
+<!-- RESERVATIONS -->
+<section class="book" id="reservas" aria-labelledby="book-t">
+  <div class="wrap book__grid">
+    <div class="book__aside">
+      <p class="kicker rv" data-t="bookKicker"></p>
+      <h2 class="h2 rv" id="book-t" data-t="bookTitle"></h2>
+      <p class="lead rv" data-t="bookLead"></p>
+      <div class="telcard rv"><span data-t="bookPhone"></span><a href="tel:+34943140021">+34 943 14 00 21</a></div>
+      <img class="book__plate rv" src="img/deco-ship2.webp" alt="" width="700" height="634" loading="lazy">
+    </div>
+    <div class="card rv">
+      <form class="form" id="rform" novalidate>
+        <div class="field full"><label for="r-name" data-t="f.name"></label><input id="r-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="r-phone" data-t="f.phone"></label><input id="r-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="field"><label for="r-email" data-t="f.email"></label><input id="r-email" name="email" type="email" autocomplete="email" inputmode="email" required></div>
+        <div class="field"><label for="r-date" data-t="f.date"></label><input id="r-date" name="date" type="date" required></div>
+        <fieldset class="field" style="border:0;padding:0;margin:0"><legend data-t="f.service"></legend>
+          <div class="seg" style="margin-top:7px">
+            <label><input type="radio" name="service" value="lunch" checked><span data-t="f.lunch"></span></label>
+            <label><input type="radio" name="service" value="dinner"><span data-t="f.dinner"></span></label>
+          </div>
+        </fieldset>
+        <div class="field"><label for="r-time" data-t="f.time"></label><input id="r-time" name="time" type="time" step="900" value="14:00" required></div>
+        <div class="field"><label id="r-guests-l" data-t="f.guests"></label>
+          <div class="stepper" role="group" aria-labelledby="r-guests-l"><button type="button" data-step="-1" aria-label="−">−</button><output id="r-guests" aria-live="polite">2</output><button type="button" data-step="1" aria-label="+">+</button></div>
+          <span class="hint" data-t="f.more"></span></div>
+        <div class="field full"><label for="r-req"><span data-t="f.requests"></span> <small>(<span data-t="f.optional"></span>)</small></label><textarea id="r-req" name="requests" data-ph="f.placeholderReq"></textarea></div>
+        <div class="field full"><label for="r-all"><span data-t="f.allergies"></span> <small>(<span data-t="f.optional"></span>)</small></label><input id="r-all" name="allergies" data-ph="f.placeholderAll"></div>
+        <div class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field full"><label class="consent"><input type="checkbox" name="consent" required><span data-t="f.consent"></span></label><button type="button" class="linkbtn" data-modal="privacy" data-t="legal.privacy"></button><span class="msg" data-msg="consent"></span></div>
+        <div class="full form__foot"><button class="btn btn--ink" type="submit" data-t="f.submit"></button><span class="form__err" id="rerr" role="alert"></span></div>
+      </form>
+      <div class="state" id="rok" tabindex="-1">
+        <svg class="mark" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 40 Q20 25 35 40 T65 40 T85 36"/><path d="M28 30 l10 10 22-26"/></svg>
+        <h3 data-t="okTitle"></h3>
+        <p data-t="okText"></p>
+        <p class="pending" data-t="okPending"></p>
+        <div class="sum" id="rsum1"></div>
+        <div class="row"><button class="btn btn--line" type="button" data-again data-t="okAgain"></button></div>
+      </div>
+      <div class="state" id="roff" tabindex="-1">
+        <svg class="mark" viewBox="0 0 90 60" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 40 Q20 25 35 40 T65 40 T85 36"/></svg>
+        <h3 data-t="offTitle"></h3>
+        <p data-t="offText"></p>
+        <div class="sum" id="rsum2"></div>
+        <div class="row"><a class="btn btn--ink" href="tel:+34943140021">+34 943 14 00 21</a><button class="btn btn--line" type="button" id="copySum" data-t="copy"></button></div>
+        <div class="row"><button class="linkbtn" type="button" data-again data-t="okAgain"></button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact paper" id="contacto" aria-labelledby="contact-t">
+  <div class="wrap contact__grid">
+    <div>
+      <p class="kicker rv" data-t="contactKicker"></p>
+      <h2 class="h2 rv" id="contact-t" data-t="contactTitle"></h2>
+      <dl class="info rv">
+        <div><dt data-t="address"></dt><dd>Itxas-Etxe<br><span class="asador">Erretegia · Jatetxea — Asador · Restaurante</span>Kaia, 1<br>20808 Getaria · Gipuzkoa</dd></div>
+        <div><dt data-t="phones"></dt><dd class="tels"><a href="tel:+34943140021">943 14 00 21</a><a href="tel:+34943140882">943 140 882</a></dd></div>
+        <div><dt data-t="hoursTitle"></dt><dd class="muted" id="hours"></dd></div>
+      </dl>
+      <div class="cform rv">
+        <h3 data-t="contactForm"></h3>
+        <form class="form" id="cform" novalidate>
+          <div class="field"><label for="c-name" data-t="f.name"></label><input id="c-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="c-email" data-t="f.email"></label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field full"><label for="c-msg" data-t="f.message"></label><textarea id="c-msg" name="message" required></textarea></div>
+          <div class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off"></label></div>
+          <div class="field full"><label class="consent"><input type="checkbox" name="consent" required><span data-t="f.consent"></span></label><button type="button" class="linkbtn" data-modal="privacy" data-t="legal.privacy"></button><span class="msg" data-msg="consent"></span></div>
+          <div class="full form__foot"><button class="btn btn--line" type="submit" data-t="f.send"></button><span class="form__err" id="cerr" role="alert"></span></div>
+        </form>
+      </div>
+    </div>
+    <div class="map rv" id="map">
+      <svg class="map__bg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="600" height="800" fill="#e6d8b9"/>
+        <g stroke="#8a6f45" stroke-opacity=".18" stroke-width="1">
+          <path d="M0 100H600M0 200H600M0 300H600M0 400H600M0 500H600M0 600H600M0 700H600M100 0V800M200 0V800M300 0V800M400 0V800M500 0V800"/>
+        </g>
+        <path d="M600 470 C520 480 470 455 420 470 C380 482 360 520 330 530 C300 540 270 520 250 540 C230 560 220 610 180 630 C140 650 80 640 0 660 L0 800 L600 800Z" fill="#d6c39c"/>
+        <path d="M600 470 C520 480 470 455 420 470 C380 482 360 520 330 530 C300 540 270 520 250 540 C230 560 220 610 180 630 C140 650 80 640 0 660" fill="none" stroke="#6b5434" stroke-width="1.6"/>
+        <path d="M330 530 C320 470 300 420 270 400 C250 388 236 400 240 420 C246 450 280 470 300 500" fill="#d6c39c" stroke="#6b5434" stroke-width="1.6"/>
+        <g fill="none" stroke="#2f4d66" stroke-opacity=".35"><path d="M40 300 q30 -10 60 0 t60 0"/><path d="M380 260 q30 -10 60 0 t60 0"/><path d="M120 420 q30 -10 60 0 t60 0"/><path d="M420 380 q30 -10 60 0 t60 0"/></g>
+        <g transform="translate(110 150)" stroke="#6b5434" fill="none" stroke-opacity=".7"><circle r="46"/><circle r="30" stroke-opacity=".4"/><path d="M0 -62 L8 0 L0 62 L-8 0Z M-62 0 L0 -8 L62 0 L0 8Z" fill="#b08d55" fill-opacity=".35"/></g>
+        <text x="110" y="232" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="16" fill="#6b5434" letter-spacing="3">N</text>
+        <text x="300" y="250" text-anchor="middle" font-family="Cormorant Garamond,serif" font-style="italic" font-size="30" fill="#2f4d66" fill-opacity=".7">Mar Cantábrico</text>
+        <text x="420" y="590" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="22" fill="#4a3a24" letter-spacing="8">GETARIA</text>
+      </svg>
+      <div class="map__pin"><svg viewBox="0 0 38 50" aria-hidden="true"><path d="M19 1C9 1 1 9 1 19c0 13 18 30 18 30s18-17 18-30C37 9 29 1 19 1z" fill="currentColor"/><circle cx="19" cy="19" r="6" fill="#cfb07a"/></svg><span>Itxas-Etxe</span></div>
+      <div class="map__foot">
+        <div class="row">
+          <a class="btn btn--ink" id="dirBtn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8-8-2z"/></svg><span data-t="directions"></span></a>
+          <a class="btn btn--line" id="mapsBtn" href="#" target="_blank" rel="noopener" data-t="openMaps"></a>
+        </div>
+        <button class="linkbtn" type="button" id="loadMap" hidden style="align-self:center" data-t="loadMap"></button>
+        <p id="mapNote" hidden data-t="mapConsent"></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <svg class="ftr__ship" viewBox="0 0 140 90" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round" aria-hidden="true">
+      <path d="M14 66 L126 66 L116 78 Q70 84 24 78 Z" />
+      <path d="M44 66V12M72 66V6M100 66V16"/>
+      <path d="M44 16 Q56 30 44 44 Q34 30 44 16Z M44 46 Q58 54 44 62 Q32 54 44 46Z" opacity=".9"/>
+      <path d="M72 10 Q88 24 72 40 Q60 24 72 10Z M72 42 Q90 52 72 62 Q58 52 72 42Z"/>
+      <path d="M100 20 Q114 32 100 46 Q90 32 100 20Z M100 48 Q112 55 100 62 Q92 55 100 48Z"/>
+      <path d="M100 18 L128 52 L104 52"/>
+      <path d="M72 6 l8 -3 v5z" fill="currentColor"/>
+      <path d="M4 84 q10 -4 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" opacity=".6"/>
+    </svg>
+    <p class="ftr__closing" data-t="footerClosing"></p>
+    <p class="ftr__sign">ITXAS-ETXE · <span data-t="footerSign"></span></p>
+    <div class="ftr__cols">
+      <div>
+        <h4>Itxas-Etxe · Erretegia · Jatetxea</h4>
+        <address>Asador · Restaurante<br>Kaia, 1 · 20808 Getaria · Gipuzkoa<br><a href="tel:+34943140021">943 14 00 21</a> · <a href="tel:+34943140882">943 140 882</a></address>
+      </div>
+      <div>
+        <h4 data-t="nav.home"></h4>
+        <ul>
+          <li><a href="#historia" data-go="historia" data-t="nav.story"></a></li>
+          <li><a href="#gastronomia" data-go="gastronomia" data-t="nav.gastro"></a></li>
+          <li><a href="#carta" data-go="carta" data-t="nav.menu"></a></li>
+          <li><a href="#vinos" data-go="vinos" data-t="nav.wines"></a></li>
+          <li><a href="#galeria" data-go="galeria" data-t="nav.gallery"></a></li>
+          <li><a href="#reservas" data-go="reservas" data-t="nav.book"></a></li>
+          <li><a href="#contacto" data-go="contacto" data-t="nav.contact"></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-t="langLabel"></h4>
+        <div class="langs" role="group" data-langs></div>
+        <a class="btn btn--solid" href="#reservas" data-go="reservas" data-t="reserve"></a>
+      </div>
+    </div>
+    <div class="ftr__legal">
+      <button type="button" data-modal="privacy" data-t="legal.privacy"></button>
+      <button type="button" data-cookie data-t="legal.cookies"></button>
+      <button type="button" data-modal="notice" data-t="legal.notice"></button>
+    </div>
+    <p class="ftr__copy">© <span id="yr"></span> Restaurante Itxas-Etxe · Getaria. <span data-t="rights"></span></p>
+  </div>
+</footer>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
+<div class="mbar" id="mbar">
+  <a class="btn btn--line" href="tel:+34943140021" aria-label="+34 943 14 00 21"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg><span data-t="call"></span></a>
+  <a class="btn btn--ink" href="#reservas" data-go="reservas" data-t="reserve"></a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galería" aria-hidden="true">
+  <div class="lb__bar"><span id="lbCount"></span><button class="lb__btn" type="button" data-lb="close" data-ta="close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div>
+  <div class="lb__stage" id="lbStage">
+    <button class="lb__btn lb__nav lb__prev" type="button" data-lb="prev" data-ta="lbPrev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <img id="lbImg" alt="">
+    <button class="lb__btn lb__nav lb__next" type="button" data-lb="next" data-ta="lbNext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <p class="lb__cap" id="lbCap"></p>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalT" aria-hidden="true">
+  <div class="modal__box"><button class="modal__close" type="button" data-close data-ta="close">×</button><h2 id="modalT"></h2><div id="modalB"></div></div>
+</div>
+
+<div class="cookie" id="cookie" role="region" aria-label="Cookies">
+  <p style="margin:0" data-t="cookieText"></p>
+  <label><input type="checkbox" id="ckMaps"><span data-t="cookieMaps"></span></label>
+  <div class="row"><button class="btn btn--solid" type="button" id="ckOk" data-t="cookieOk"></button></div>
+</div>
+
+<script src="data.js"></script>
+<script src="i18n.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
